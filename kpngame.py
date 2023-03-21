@@ -46,23 +46,7 @@ def ai_gamemode():
 
 def two_player_gamemode():
     move = getpass.getpass(f"{Points.player1_name}, wybierz ruch: kamien, papier, nozyce\n")
-    # if move == "kamien":
-    #     print(Points.player1_name, " wybrał kamień")
-    # elif move == "papier":
-    #     print(Points.player1_name, " wybrał papier")
-    # elif move == "nozyce":
-    #     print(Points.player1_name, " wybrał nożyce")
-    # else:
-    #     print("Niepoprawny ruch")
     move2 = getpass.getpass(f"{Points.player2_name}, wybierz ruch: kamien, papier, nozyce\n")
-    # if move2 == "kamien":
-    #     print(Points.player2_name, " wybrał kamień\n")
-    # elif move2 == "papier":
-    #     print(Points.player2_name, " wybrał papier\n")
-    # elif move2 == "nozyce":
-    #     print(Points.player2_name, " wybrał nożyce\n")
-    # else:
-    #     print("Niepoprawny ruch")
     if move == "kamien" and move2 == "nozyce":
         print(f"Wygrał {Points.player1_name}\n")
         Points.player1_score += 1

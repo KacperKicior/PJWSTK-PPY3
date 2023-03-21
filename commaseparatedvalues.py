@@ -12,3 +12,4 @@ for csv in csv_list:
 
 print("Max: ", n_max)
 print("Min: ", n_min)
+

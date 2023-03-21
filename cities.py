@@ -13,3 +13,4 @@ print(visit_city)
 
 for i, cities in enumerate(visit_city):
     print(f"{i + 1}.{cities}")
+
